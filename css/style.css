@@ -1,0 +1,13 @@
+header {
+    border-bottom: 1px;
+}
+
+footer div{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+
+footer img{
+    width: 50%;
+}
