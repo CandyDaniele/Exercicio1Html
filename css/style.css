@@ -2,12 +2,32 @@ header {
     border-bottom: 1px;
 }
 
-footer div{
+footer,main div{
     float: left;
-    width: 50%;
     overflow: hidden;
+}
+
+footer div{
+    width: 50%;
 }
 
 footer img{
     width: 50%;
+}
+
+.fotos{
+    float: left;
+    width: 50%;
+}
+
+.sidebar{
+    width: 30%;
+}
+
+.conteudo{
+    width: 70%;
+}
+
+.resto{
+    width: 100%;
 }

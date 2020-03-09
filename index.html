@@ -13,14 +13,14 @@
         <h2>Carta</h2>
     </header>
     <main>
-        <div>
+        <div class="sidebar">
             <nav>
                 <ul>
-                    <li><a href="#">Entradas</a></li>
-                    <li><a href="#">Pratos Principais</a></li>
+                    <li><a href="#entradas">Entradas</a></li>
+                    <li><a href="#pratos">Pratos Principais</a></li>
                     <li><a href="#">Saladas</a></li>
                     <li><a href="#">Raws</a></li>
-                    <li><a href="#">Postres</a></li>
+                    <li><a href="#postres">Postres</a></li>
                     <li><a href="#">Desayuno y Meriendas</a></li>
                     <li><a href="#">Bebidas</a></li>
                     <li><a href="#">Smoothies</a></li>
@@ -30,13 +30,11 @@
                 </ul>
             </nav>
         </div>
-        <div>
-            <section>
-                <h3>Entradas</h3>
-                <div>
-                    <img src="img/foto-entradas.jpg" alt="Foto Entrada">
-                </div>
-                <div>
+        <div class="conteudo">
+            <section id="entradas">
+
+                <div class="fotos">
+                    <h3>Entradas</h3>
                     <article>
                         <h4>Tiras de Mussarela</h4>
                         Tiras mozzarella assados
@@ -51,6 +49,12 @@
                         220 gr. de torresmos de lula
                         frito com alioli
                     </article>
+                </div>
+                <div class="fotos">
+                    <img src="img/foto-entradas.jpg" alt="Foto Entrada">
+                </div>
+
+                <div class="resto">
                     <article>
                         <h4>Porção de batatas fritas com Cheddar e bacon</h4>
                     </article>
@@ -86,15 +90,12 @@
                         <h4>Tampa de moela</h4>
                         Pão doce com manga, abacaxi, gengibre, pimenta e pipoca.
                     </article>
+                    <a href="#">Voltar ao Início</a>
                 </div>
-                <a href="#">Voltar ao Início</a>
             </section>
-            <section>
-                <h3>Pratos principais</h3>
-                <div>
-                    <img src="img/foto-ppal.jpg" alt="Foto Prato Principal">
-                </div>
-                <div>
+            <section id="pratos">
+                <div class="fotos">
+                    <h3>Pratos principais</h3>
                     <article>
                         <h4>Bife Criollo</h4>
                         Ribeye com patos andinos, salada de rúcula, provolone e molho crioulo
@@ -108,6 +109,11 @@
                         <h4>Penne Rigatte</h4>
                         Com bife, creme ou molho de rosa.
                     </article>
+                </div>
+                <div class="fotos">
+                    <img src="img/foto-ppal.jpg" alt="Foto Prato Principal">
+                </div>
+                <div class="resto">
                     <article>
                         <h4>Salada de camarão rei</h4>
                         camarões refogados, trabalhado, cebolinha com molho de laranja, vinagre e azeite.
@@ -145,15 +151,12 @@
                         <h4>Sorrentinos verdes</h4>
                         Recheado com abóbora assada e queijo brie, perfumado com manteiga de ervas e sumo de toranja.
                     </article>
+                    <a href="#">Voltar ao Início</a>
                 </div>
-                <a href="#">Voltar ao Início</a>
             </section>
-            <section>
-                <h3>Sobremesas</h3>
-                <div>
-                    <img src="img/foto-postre.jpg" alt="Foto Sobremesa">
-                </div>
-                <div>
+            <section id="postres">
+                <div class="fotos">
+                    <h3>Sobremesas</h3>
                     <article>
                         <h4>Creme caseiro</h4>
                         Nosso pudim clássico com doce de leite e creme.
@@ -165,6 +168,11 @@
                         <h4>Fondue de chocolat</h4>
                         Com frutas frescas em filetes.
                     </article>
+                </div>
+                <div class="fotos">
+                    <img src="img/foto-postre.jpg" alt="Foto Sobremesa">
+                </div>
+                <div class="resto">
                     <article>
                         <h4>Crocante de Banana e Nutella</h4>
                     </article>
@@ -175,8 +183,8 @@
                     <article>
                         <h4>Cheesecake</h4>
                     </article>
+                    <a href="#">Voltar ao Início</a>
                 </div>
-                <a href="#">Voltar ao Início</a>
             </section>
         </div>
     </main>
